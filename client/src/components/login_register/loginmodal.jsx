@@ -27,7 +27,7 @@ const Loginmodal = () => {
     }
 
     try {
-      let api = `http://localhost:5000/api/${url}`;
+      let api = `https://charts-learnmvp.vercel.app/api/${url}`;
       // alert("complete");
       console.log("start try");
       console.log(`hello ${api}`);
