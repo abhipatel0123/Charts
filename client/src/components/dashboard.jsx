@@ -13,7 +13,7 @@ const Dashboard = () => {
 
     if (token) {
       axios
-        .post("http://localhost:5000/api/profile", { token: token })
+        .post("https://charts-learnmvp.vercel.app/api/profile", { token: token })
         .then((res) => {
           if (res.data) {
             // setuser(res.data);
